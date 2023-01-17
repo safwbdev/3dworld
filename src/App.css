@@ -42,7 +42,7 @@ html{
 
 .navMenu{
   display: flex;
-  height: 100vh;
+  /* height: 100vh; */
   justify-content: center;
   align-items: center;
 }
@@ -54,11 +54,18 @@ html{
   border: 2px solid #000;
   border-radius: 1em;
 }
-.navMenuItem a.mainLink{
-  text-decoration: none;
-  color: black;
+.navMenuItem .buttonRow{
   display: flex;
   justify-content: flex-end;
+  
+}
+.navMenuItem a.mainLink{
+  text-decoration: none;
+  color: white;
+  padding: 0.5em;
+  border-radius: .5em;
+  background-color: black;
+  width: fit-content;
   
 }
 .navMenuItem a.mainLink:hover{
@@ -69,4 +76,18 @@ html{
 .sourceList a{
   color: blue;
   text-decoration: none;
+}
+.ghLink i{
+  color: #000;
+  font-size: 2em;
+}
+.ghLink a{
+  display: flex;
+  align-items: center;
+  color: blue;
+  text-decoration: none;
+  
+}
+.ghLink a span{
+  margin-left: .5em;
 }
