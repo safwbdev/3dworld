@@ -58,7 +58,7 @@ html{
   text-decoration: none;
   color: black;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   
 }
 .navMenuItem a.mainLink:hover{
