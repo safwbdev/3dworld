@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
+html{
+  background: #000;
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +38,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navMenu{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.navMenuItem{
+  background-color: #fff;
+  margin: 1em;
+  flex: 1;
+  padding: 1em;
+  border: 2px solid #000;
+  border-radius: 1em;
+}
+.navMenuItem a.mainLink{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: end;
+  
+}
+.navMenuItem a.mainLink:hover{
+  color: blue;
+  font-size: 1.2em;
+  transition: all ease-in .2s;
+}
+.sourceList a{
+  color: blue;
+  text-decoration: none;
 }
